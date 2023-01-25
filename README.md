@@ -12,13 +12,11 @@ sudo nano /etc/rc.local
 
 Make sure /etc/rc.local file is executable.
 ```
-
 sudo chmod +x /etc/rc.local
 ```
 
 Finally, enable the service on system boot.
 ```
-
 sudo systemctl enable rc-local
 ```
 
